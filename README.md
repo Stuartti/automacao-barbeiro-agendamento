@@ -14,23 +14,23 @@ Sistema que recebe agendamentos via formulário, verifica a disponibilidade na a
 
 
 [Tally Form] ──▶ Webhook (n8n)
-                    │
-                    ▼
-              [Extrai campos]
-                    │
-                    ▼
-           [Valida se tem horário] ──(vazio)──▶ Retorna erro ao cliente
-                    │
-                  (ok)
-                    │
-                    ▼
-          [Calcula slot de 30min]
-                    │
-                    ▼
-         [Checa Google Calendar]
-                    │
-                    ▼
-       [Cria evento no Calendar]
+│
+▼
+[Extrai campos]
+│
+▼
+[Valida se tem horário] ──(vazio)──▶ Retorna erro ao cliente
+│
+(ok)
+│
+▼
+[Calcula slot de 30min]
+│
+▼
+[Checa Google Calendar]
+│
+▼
+[Cria evento no Calendar]
 
 ## Stack utilizada
 
