@@ -1,6 +1,6 @@
 # Automação de Agendamento com Google Calendar
 
-![Print do fluxo no n8n](print n8n.png)
+![Print do fluxo no n8n](print-n8n.png)
 
 Sistema que recebe agendamentos via formulário, verifica a disponibilidade na agenda e cria o evento automaticamente — tudo orquestrado no **n8n**.
 
